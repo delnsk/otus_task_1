@@ -6,7 +6,7 @@
 
 Базовое ТЗ ([docs/source_task.md](docs/source_task.md)): `GET /questions`, `POST /answers`, React-фронт, «Спасибо!» после отправки.
 
-Ваши дополнения **расширяют** хранение: вместо in-memory slice — **файловое хранение** в `answers/` с индексом и снимком вопросов. Это осознанное отклонение; в [docs/README.md](docs/README.md) кратко укажем это.
+Ваши дополнения **расширяют** хранение: вместо in-memory slice — **файловое хранение** в `answers/` с индексом и снимком вопросов. Это осознанное отклонение; в [README.md](../README.md) кратко укажем это.
 
 **Выборы (подтверждены):** TypeScript, monorepo `backend/` + `frontend/`.
 
@@ -298,7 +298,7 @@ npm run dev
 | Файл | Содержание |
 |------|------------|
 | [docs/implementation_plan.md](docs/implementation_plan.md) | Копия/экспорт этого плана после подтверждения |
-| [docs/README.md](docs/README.md) | Назначение приложения, схема API, структура папок, требования (Node 20+), запуск через `scripts/` или `npm run dev`, URL фронта и API, пример `questions.json`, формат файлов ответов |
+| [README.md](../README.md) | Назначение приложения, схема API, структура папок, требования (Node 20+), запуск через `scripts/` или `npm run dev`, URL фронта и API, пример `questions.json`, формат файлов ответов |
 
 ---
 
@@ -320,7 +320,7 @@ npm run dev
 - Proxy, E2E ручной сценарий: загрузка → заполнение всех типов → «Спасибо!» → файл в `answers/`
 
 ### Этап 5 — Deploy/DX
-- Скрипты `scripts/*`, `docs/README.md`, сохранение плана в `docs/implementation_plan.md`
+- Скрипты `scripts/*`, `README.md`, сохранение плана в `docs/implementation_plan.md`
 
 ---
 
@@ -352,5 +352,5 @@ npm run dev
 - [ ] React UI: open / radio / checkbox, синяя тема, лёгкая анимация
 - [ ] После submit — «Спасибо!»
 - [ ] `scripts/setup-and-run.*` и `npm run dev` работают на Windows
-- [ ] `docs/README.md` и `docs/implementation_plan.md` заполнены
+- [ ] `README.md` и `docs/implementation_plan.md` заполнены
 - [ ] Промпты остаются в `prompts/` (по формату сдачи)

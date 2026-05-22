@@ -49,7 +49,7 @@
 Что сделано
 Освобождён порт 3001 — завершён зависший процесс.
 Обновлён backend/src/index.ts — ошибка listen обрабатывается явно, в консоль выводится понятное сообщение вместо необработанного Unhandled 'error' event.
-Добавлен раздел в docs/README.md — что делать, если порт снова занят.
+Добавлен раздел в README.md — что делать, если порт снова занят.
 Если ошибка повторится после npm run dev, в PowerShell:
 
 Get-NetTCPConnection -LocalPort 3001 | Select-Object -ExpandProperty OwningProcess -Unique | ForEach-Object { Stop-Process -Id $_ -Force }

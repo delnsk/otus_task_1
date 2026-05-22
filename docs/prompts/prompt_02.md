@@ -45,7 +45,7 @@ Frontend: http://localhost:5173
 Backend: http://localhost:3001
 
 Документация
-docs/README.md — описание и инструкция
+README.md — описание и инструкция
 docs/implementation_plan.md — план реализации
 Сборка (npm run build) и API-тест прошли успешно; создан файл backend/answers/answer-001.json (при коммите он не попадёт в git — исключён в .gitignore).
 ```
